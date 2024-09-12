@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f9;
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #fff; */
+  margin: 0 auto;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px rgb(229, 228, 228);
+}
+
+form select,
+input {
+  padding: 10px;
+  font-family: "Poppins";
+}
+
+label {
+  font-weight: bold;
+}
+
+.submit {
+  color: white;
+  font-size: 15px;
+  background-color: blue;
+  border: 1px solid blue;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 6px 0px purple;
+  transition: all 0.1s;
+}
+.submit:hover {
+  background-color: rgb(0, 0, 178);
+}
+.submit:active {
+  box-shadow: 0px 2px 0px blue;
+  position: relative;
+  top: 2px;
+}
+
+.c-l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.c-l .container-logic {
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container-logic h2 {
+  color: rgb(66, 66, 255);
+}
+
+.result {
+  padding: 30px 0;
+}
+
+.back {
+  background-color: blue;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.back:hover, button:hover {
+  background-color: rgb(0, 0, 178);
+  text-decoration: underline;
+}
+
+button {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
